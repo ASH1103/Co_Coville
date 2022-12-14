@@ -7,12 +7,11 @@ public class ClickAndCollect : MonoBehaviour
   
 public GameObject canvas;
 
+
     void OnMouseDown()
     {
      canvas.SetActive(true);
-    
+     
     }
-
-    
 
 }

@@ -13,6 +13,7 @@ public class AnimationUI : MonoBehaviour
     public GameObject winChar;
     public GameObject loseChar;
     private int index;
+    public GameObject Cutscene;
 
 
     private GameObject back;
@@ -29,6 +30,7 @@ public class AnimationUI : MonoBehaviour
             index = 1;
             winChar.SetActive(true);
             StartDialogue();
+            StartCutscene();
             countinue.SetActive(true);      
         }
         else
@@ -41,12 +43,22 @@ public class AnimationUI : MonoBehaviour
     }
 
     // Update is called once per frame
-   
+
     public void StartDialogue()
     {
         StartCoroutine(TypeLine());
 
     }
+    
+    public void StartCutscene()
+    {
+        StopCoroutine(TypeLine());
+        Cutscene.SetActive(true);
+
+    }
+    
+
+    
 
   
     IEnumerator TypeLine()

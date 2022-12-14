@@ -14,7 +14,7 @@ public class AnimationUI : MonoBehaviour
     public GameObject loseChar;
     private int index;
     public GameObject Cutscene;
-
+    
 
     private GameObject back;
     private GameObject countinue;

@@ -4029,7 +4029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &278233403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27535,7 +27535,7 @@ MonoBehaviour:
   objectActive: {fileID: 1718682507}
   winChar: {fileID: 1210897386}
   loseChar: {fileID: 1734925101}
-  Cutscene: {fileID: 0}
+  Cutscene: {fileID: 1281264833}
 --- !u!1001 &1459302207
 PrefabInstance:
   m_ObjectHideFlags: 0

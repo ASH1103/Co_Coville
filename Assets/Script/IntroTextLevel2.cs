@@ -6,7 +6,6 @@ using TMPro;
 public class IntroTextLevel2 : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
-    
 
     
     void Start()
@@ -18,9 +17,11 @@ public class IntroTextLevel2 : MonoBehaviour
     
     }
     
-    IEnumerator TypeIntroText(string line){
+    IEnumerator TypeIntroText(string line)
+    {
     
-    foreach(char c in line.ToCharArray()){
+    foreach(char c in line.ToCharArray())
+    {
     textDisplay.text += c;
     yield return new WaitForSeconds(0.07f);
     }

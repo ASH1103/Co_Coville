@@ -12,6 +12,8 @@ public class Dialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     private GameObject startButton;
+    public AudioSource[] cocoSound;
+    private int cocoIndex;
 
 
     private int index;
@@ -19,9 +21,11 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+     
         textComponent.text = string.Empty;
         StartDialogue();
         startButton = this.transform.Find("StartButton").gameObject;
+        StartSound();
     }
 
     // Update is called once per frame
@@ -50,13 +54,30 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator TypeLine()
     {
-
+                
         foreach (char c in lines [index].ToCharArray())
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
+                        
         }
     }
+
+    void StartSound()
+    {
+        cocoIndex=0;
+     //   StartCoroutine(SoundStart());
+    }
+
+    //IEnumerator SoundStart()
+   // {
+     //   foreach (var s in cocoSound[cocoIndex])
+      //  {
+            
+           // yield return new WaitForSeconds(textSpeed);
+       // }
+  //  }
+
 
     void NextLine ()
     {
@@ -65,11 +86,17 @@ public class Dialogue : MonoBehaviour
             index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
+            
+            cocoIndex++;
+            //StartCoroutine(SoundStart());
+           
 
         if (index == 6)
         {
             startButton.SetActive(true);
         }
+
+         
 
         }
 
@@ -78,5 +105,20 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+
+
+
+       
+
+      
     }
+
+
+
+
+
+
 }
+
+
+

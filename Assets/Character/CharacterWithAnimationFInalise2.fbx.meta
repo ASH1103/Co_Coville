@@ -39,6 +39,15 @@ ModelImporter:
   - first:
       74: 4829966686875344911
     second: Armature|Waving
+  - first:
+      74: 3360660674406818110
+    second: Armature|WalkForward (1)
+  - first:
+      74: 4699749747569797438
+    second: Armature|ShakeHead (1)
+  - first:
+      74: -218398248307591480
+    second: Armature|CheerUp (1)
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -69,7 +78,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Armature|CheerUp
+      name: Armature|CheerUp (1)
       takeName: Armature|CheerUp
       internalID: 0
       firstFrame: 0
@@ -272,19 +281,19 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Armature|ShakeHead
-      takeName: Armature|ShakeHead
+      name: Armature|CheerUp
+      takeName: Armature|CheerUp
       internalID: 0
       firstFrame: 0
-      lastFrame: 75
+      lastFrame: 60
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -473,7 +482,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: Root
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -481,7 +490,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 

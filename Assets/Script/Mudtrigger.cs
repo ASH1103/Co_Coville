@@ -18,7 +18,7 @@ public class Mudtrigger : MonoBehaviour
         itemimage.SetActive(false);
         propimage.SetActive(false);
         canvas.SetActive(true);
-        Debug.Log(UserName.textName);
+
     }
 
   

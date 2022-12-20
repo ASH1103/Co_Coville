@@ -10,6 +10,7 @@ public class PotTrigger : MonoBehaviour
     public GameObject itemimage;
     public GameObject propimage;
     public GameObject objectActive;
+    public AudioSource sound;
 
 
     void OnTriggerEnter(Collider other)
@@ -21,7 +22,8 @@ public class PotTrigger : MonoBehaviour
        
         itemimage.SetActive(false);
         propimage.SetActive(false);
-        canvas.SetActive(true);
+        canvas.SetActive(true);    
+        sound.Play();
     }
 
     IEnumerator FinishCut()
@@ -29,4 +31,8 @@ public class PotTrigger : MonoBehaviour
         yield return new WaitForSeconds(8);
 
     }
+    
+   
+    
+    
 }

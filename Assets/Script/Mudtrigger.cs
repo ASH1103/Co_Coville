@@ -10,6 +10,7 @@ public class Mudtrigger : MonoBehaviour
     public GameObject propimage;
 
 
+
     void OnTriggerEnter(Collider other)
     {
         this.gameObject.GetComponent<BoxCollider>().enabled = false;
@@ -18,6 +19,7 @@ public class Mudtrigger : MonoBehaviour
         itemimage.SetActive(false);
         propimage.SetActive(false);
         canvas.SetActive(true);
+     
 
     }
 

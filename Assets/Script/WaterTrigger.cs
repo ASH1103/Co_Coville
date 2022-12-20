@@ -11,6 +11,7 @@ public class WaterTrigger : MonoBehaviour
     public GameObject canvas;
     public GameObject itemimage;
     public GameObject propimage;
+    public AudioSource water;
 
     void Start ()
     {
@@ -28,6 +29,7 @@ public class WaterTrigger : MonoBehaviour
         itemimage.SetActive(false);
         propimage.SetActive(false);
         canvas.SetActive(true);
+        water.Play();
     
        
     }

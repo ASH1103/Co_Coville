@@ -13,7 +13,7 @@ public class Dialogue : MonoBehaviour
     public float textSpeed;
     private GameObject startButton;
     public AudioSource[] cocoSound;
-    private int cocoIndex;
+    private int cocoIndex=0;
 
 
     private int index;
@@ -25,17 +25,23 @@ public class Dialogue : MonoBehaviour
         textComponent.text = string.Empty;
         StartDialogue();
         startButton = this.transform.Find("StartButton").gameObject;
-        StartSound();
+        cocoSound[cocoIndex].Play();
+      
     }
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0)&&index!=6)
-        {
+        {   
+            
+          
             if (textComponent.text == lines [index])
             {
                 NextLine();
+                
+                cocoSound[cocoIndex-1].Stop();
+                cocoSound[cocoIndex].Play();
                 
             }
             else
@@ -53,31 +59,17 @@ public class Dialogue : MonoBehaviour
     }
 
     IEnumerator TypeLine()
-    {
-                
+    {             
         foreach (char c in lines [index].ToCharArray())
         {
             textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
-                        
+            yield return new WaitForSeconds(textSpeed);                       
         }
     }
 
-    void StartSound()
-    {
-        cocoIndex=0;
-     //   StartCoroutine(SoundStart());
-    }
+  
 
-    //IEnumerator SoundStart()
-   // {
-     //   foreach (var s in cocoSound[cocoIndex])
-      //  {
-            
-           // yield return new WaitForSeconds(textSpeed);
-       // }
-  //  }
-
+ 
 
     void NextLine ()
     {
@@ -88,15 +80,11 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
             
             cocoIndex++;
-            //StartCoroutine(SoundStart());
-           
 
         if (index == 6)
         {
             startButton.SetActive(true);
         }
-
-         
 
         }
 
@@ -106,17 +94,7 @@ public class Dialogue : MonoBehaviour
             gameObject.SetActive(false);
         }
 
-
-
-       
-
-      
     }
-
-
-
-
-
 
 }
 

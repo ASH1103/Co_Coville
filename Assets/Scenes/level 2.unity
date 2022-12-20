@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.8575246, g: 0.70557225, b: 0.77332425, a: 1}
+  m_IndirectSpecularColor: {r: 0.8575189, g: 0.7055728, b: 0.77332366, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -737,7 +737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -86.708}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 115, y: 93.9}
+  m_AnchoredPosition: {x: 115, y: 113.1}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &18378663
@@ -2243,6 +2243,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 316182805}
     m_Modifications:
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6399047
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Size.z
+      value: 3.221612
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Center.y
+      value: 0.67171025
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Center.z
+      value: 6.721301
+      objectReference: {fileID: 0}
     - target: {fileID: 4706090710533899391, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
       propertyPath: m_Name
       value: streetlight (19)
@@ -3459,6 +3475,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 316182805}
     m_Modifications:
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.4885676
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Size.z
+      value: 2.2247121
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Center.x
+      value: 89.09401
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Center.y
+      value: 0.67171025
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914400312147186796, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
+      propertyPath: m_Center.z
+      value: 6.9982214
+      objectReference: {fileID: 0}
     - target: {fileID: 4706090710533899391, guid: 59fcf0dd82888b843930505c6902553d, type: 3}
       propertyPath: m_Name
       value: streetlight (22)
@@ -4936,15 +4972,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c194bc7360489d47ab494411b0c02f2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -142
+      value: -136.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c194bc7360489d47ab494411b0c02f2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -67
+      value: -61.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c194bc7360489d47ab494411b0c02f2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -180
+      value: -182.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c194bc7360489d47ab494411b0c02f2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6466,9 +6502,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: aa8d1aad4c9de435aa5ce8528c7dd3a0, type: 2}
   m_audioClip: {fileID: 8300000, guid: 46120f5931093b348ada194b2dc43159, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.3
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -8908,6 +8944,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1032067337}
     m_Modifications:
+    - target: {fileID: -3003663946272229124, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
+      propertyPath: m_Size.z
+      value: 6.1403956
+      objectReference: {fileID: 0}
+    - target: {fileID: -3003663946272229124, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
+      propertyPath: m_Center.x
+      value: -0.050923377
+      objectReference: {fileID: 0}
+    - target: {fileID: -3003663946272229124, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
+      propertyPath: m_Center.z
+      value: 0.27779683
+      objectReference: {fileID: 0}
     - target: {fileID: 8495513324701328381, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
       propertyPath: m_Name
       value: pine_tree (2)
@@ -21203,6 +21251,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8098810142110907274, guid: e2ae9c8d75d3e8043a952ada992c6c4e, type: 3}
   m_PrefabInstance: {fileID: 1220781475}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1225015252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1225015254}
+  - component: {fileID: 1225015253}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1225015253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225015252}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 126.94226, y: 28.97298, z: 9.758671}
+  m_Center: {x: 5.9856796, y: -13.986506, z: -4.3792706}
+--- !u!4 &1225015254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225015252}
+  m_LocalRotation: {x: 0.0070796143, y: 0.003576765, z: -0.00038454126, w: -0.99996847}
+  m_LocalPosition: {x: 2851.0535, y: 282.4, z: 1174.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 73
+  m_LocalEulerAnglesHint: {x: -0.811, y: -0.41, z: 0.047}
 --- !u!1001 &1229955241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21928,7 +22021,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 164.69995, y: -104}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 110, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267442427
 MonoBehaviour:
@@ -27278,7 +27371,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585115627}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.3}
   m_LocalScale: {x: 1.1651131, y: 0.7528882, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27287,7 +27380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -9.1, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1585115629
@@ -27373,7 +27466,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 16.514503, y: 0, z: 0, w: 0}
+  m_margin: {x: 16.639553, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -27773,6 +27866,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1032067337}
     m_Modifications:
+    - target: {fileID: -3003663946272229124, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
+      propertyPath: m_Size.x
+      value: 2.0234168
+      objectReference: {fileID: 0}
+    - target: {fileID: -3003663946272229124, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
+      propertyPath: m_Size.z
+      value: 4.807755
+      objectReference: {fileID: 0}
+    - target: {fileID: -3003663946272229124, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
+      propertyPath: m_Center.x
+      value: -0.3024696
+      objectReference: {fileID: 0}
+    - target: {fileID: -3003663946272229124, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
+      propertyPath: m_Center.z
+      value: -0.25096595
+      objectReference: {fileID: 0}
     - target: {fileID: 8495513324701328381, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
       propertyPath: m_Name
       value: pine_tree (5)

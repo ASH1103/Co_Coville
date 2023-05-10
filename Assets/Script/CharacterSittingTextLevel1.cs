@@ -12,7 +12,7 @@ public class CharacterSittingTextLevel1 : MonoBehaviour
 
     void Start()
     {
-        textDisplay.text = " Good Weather huh? I saw some kids were playing with water on the roof";
+        textDisplay.text = " Holiday season! I saw some kids were playing with water on the roof";
 
         StartCoroutine(TypeHintText(textDisplay.text));
         textDisplay.text = " ";

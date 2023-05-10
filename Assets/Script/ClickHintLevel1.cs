@@ -21,7 +21,7 @@ public class ClickHintLevel1 : MonoBehaviour
         walkChar.SetActive(false);
         button.Play();
 
-        StartCoroutine(WaitForContinue());
+        continueButton.SetActive(true);
        
 
 
@@ -30,11 +30,9 @@ public class ClickHintLevel1 : MonoBehaviour
     }
 
 
-    IEnumerator WaitForContinue()
-    {
-        yield return new WaitForSeconds(3.5f);
-        continueButton.SetActive(true);
+    
+        
 
-    }
+
 
 }

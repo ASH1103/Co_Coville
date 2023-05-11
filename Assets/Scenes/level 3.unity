@@ -7998,7 +7998,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 55e5e5bb19e9a76468cc67bbb65546c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3019.5999
+      value: 3019.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 55e5e5bb19e9a76468cc67bbb65546c2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15811,6 +15811,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &627711442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 55e5e5bb19e9a76468cc67bbb65546c2, type: 3}
+  m_PrefabInstance: {fileID: 2031990909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &627711443
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627711442}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 14c83bf22e1572e4693624143ea23884, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &629623975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18866,6 +18891,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8370587877265463340, guid: 6d8f687d4c14adc4ba6d02a78eff3114, type: 3}
   m_PrefabInstance: {fileID: 2047214874}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &832320568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: fd368be74e0578d4a839c32767696a98, type: 3}
+  m_PrefabInstance: {fileID: 1188855434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &832320569
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832320568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1e1590e2730f19a439382b6075ac609d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &833447087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21044,6 +21094,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3635491977627797574, guid: 9ecb7637f38f2ca478525bfb5e550d76, type: 3}
   m_PrefabInstance: {fileID: 925812577}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &939827477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 55e5e5bb19e9a76468cc67bbb65546c2, type: 3}
+  m_PrefabInstance: {fileID: 178902259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &939827478
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939827477}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1138796273f7a9b4db08fb8942b43441, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &940717908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29913,7 +29988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd368be74e0578d4a839c32767696a98, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3301.8586
+      value: 3301.859
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd368be74e0578d4a839c32767696a98, type: 3}
       propertyPath: m_LocalPosition.y
@@ -48421,7 +48496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 55e5e5bb19e9a76468cc67bbb65546c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3594.5999
+      value: 3594.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 55e5e5bb19e9a76468cc67bbb65546c2, type: 3}
       propertyPath: m_LocalPosition.y

@@ -9266,6 +9266,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pine_tree (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8495513324701328381, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9128216963764189511, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
       propertyPath: m_RootOrder
       value: 2

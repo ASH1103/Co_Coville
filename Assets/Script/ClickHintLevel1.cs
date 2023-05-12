@@ -10,6 +10,7 @@ public class ClickHintLevel1 : MonoBehaviour
     public GameObject hintCamera;
     public GameObject walkChar;
     public GameObject continueButton;
+    
   
 
 
@@ -22,7 +23,9 @@ public class ClickHintLevel1 : MonoBehaviour
         button.Play();
 
         continueButton.SetActive(true);
-       
+        canvas.GetComponent<CharacterSittingTextLevel1>().enabled = true;
+
+
 
 
         //  this.GetComponent<AudioSource>().enabled = true;

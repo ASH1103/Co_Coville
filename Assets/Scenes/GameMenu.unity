@@ -3082,7 +3082,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: aa8d1aad4c9de435aa5ce8528c7dd3a0, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 64a3cb709de2f294ca95059435676592, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d6ba8c7c492935b48b4533231eff67f7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -11319,7 +11319,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: aa8d1aad4c9de435aa5ce8528c7dd3a0, type: 2}
-  m_audioClip: {fileID: 8300000, guid: fc3b9eb96ecbe9c468911e2b820791b0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 64b6cd3538323454f9c6f5b1797908dd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -25253,14 +25253,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 348781542}
   lines:
-  - "Hello, I\u2019m Coco. The new year is about to come! I cannot wait for this
-    year\u2019s Countdown with all our friends!"
-  - 'You know the way to our New Year Party right? '
+  - "Hello, I\u2019m Coco, the twon manager. The town's first anniversary is about
+    to come! I cannot wait for the anniversary party with all our friends!"
+  - 'You know the way to our anniversary party right? '
   - If you want to change your outfit and grab some groceries for the party, just
     go to the clothing store and supermarket along the road!
   - 'Oh be careful on your way, some citizens do bad deeds. I know that is annoying. '
-  - If you see something on the road, and you feel it might be helpful, feel free
-    to Click and Collect
+  - If you see someone on the road, feel free to talk with them. Also, if you see
+    something on the road, and you feel it might be helpful, feel free to Click and
+    Collect
   - But remember you can only pick up ONE at a time. It probably can protect you
   - Please press the Arrow to Start the game
   textSpeed: 0.05
@@ -27128,7 +27129,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: aa8d1aad4c9de435aa5ce8528c7dd3a0, type: 2}
-  m_audioClip: {fileID: 8300000, guid: d83cdd2252b017f48b445e6f5cb543a6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2f5c5012b36f4674f9e80ea6e7938c15, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

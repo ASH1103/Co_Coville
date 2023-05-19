@@ -8,6 +8,7 @@ public class noteClickScript : MonoBehaviour
     public GameObject canvas;
     public AudioSource button;
     public GameObject walkChar;
+    public GameObject buttonContinue;
     // Start is called before the first frame update
     
     
@@ -17,6 +18,7 @@ public class noteClickScript : MonoBehaviour
       //  this.GetComponent<AudioSource>().enabled = true;
      button.Play();
      walkChar.SetActive(false);
+     buttonContinue.SetActive(true);
     }
 
 

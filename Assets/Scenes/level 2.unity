@@ -27091,7 +27091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1170927420}
   lines:
-  - ' Yikes, tripped over a banana peel! Need to go to the hospital for treatment,
+  - 'Yikes, tripped over a banana peel! Need to go to the hospital for treatment,
     you will be absent from this year''s party! Remember to look carefully at the
     road before picking it up. '
   textSpeed: 0.05

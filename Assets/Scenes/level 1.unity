@@ -49888,15 +49888,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4376692901263073431, guid: e6f79ffe24a7549a580d352019a1546a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.5
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4376692901263073431, guid: e6f79ffe24a7549a580d352019a1546a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4376692901263073431, guid: e6f79ffe24a7549a580d352019a1546a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.1
+      value: -11.2
       objectReference: {fileID: 0}
     - target: {fileID: 4376692901263073450, guid: e6f79ffe24a7549a580d352019a1546a, type: 3}
       propertyPath: m_IsActive

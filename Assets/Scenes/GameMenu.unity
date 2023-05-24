@@ -25253,7 +25253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 348781542}
   lines:
-  - "Hello, I\u2019m Coco, the twon manager. The town's first anniversary is about
+  - "Hello, I\u2019m Coco, the town manager. The town's first anniversary is about
     to come! I cannot wait for the anniversary party with all our friends!"
   - 'You know the way to our anniversary party right? '
   - If you want to change your outfit and grab some groceries for the party, just
